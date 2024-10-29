@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(130, 130, 130, 1);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgba(100, 100, 100, 1);
+    padding: 5px;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+#name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    text-decoration: solid;
+    display: flex;
+    justify-content: center;
+
+}
+
+input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 40px;
+    width: 30%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.text-field{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+   border-radius: 16px;
+   width: 15%;
+   margin-top: 10px;
+   background-color: white;
+   font-size: 15px;
+   border-style: solid;
+   border-color:  black;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}
+
+.tasks{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(239, 239, 239);
+    padding: 10px;
+    width: 30%;
+    margin-top: 20px ;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+}
+
+.mytask{
+    display: flex;
+    justify-content: center;
+}
+
+
+.delete:hover{
+    cursor: pointer;
+}
+
